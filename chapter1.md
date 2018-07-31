@@ -3,7 +3,7 @@
   description: "Test"
 ---
 
-## An exercise title written in sentence case
+## Basics of Matplotlib
 
 ```yaml
 type: NormalExercise 
@@ -21,10 +21,13 @@ Most coders abbreviate this package to plt and therefore it is good practice to 
 To import Matplotlib we write the following line in python:
 import matplotlib.pyplot as plt
 
+matplotlib.pyplot contains command like functions which each make a change to a figure e.g. create figure, create a plot, plot some lines in plotting area, customize plot with labels and legends etc. 
+The various states which are called are preserved across function calls i.e.  it keeps track of functions called such as the plotting area, axes etc.
+
 
 `@instructions`
 - Instruction 1
-
+import t
 - Instruction 2
 - Instruction 3
 
@@ -37,7 +40,7 @@ import matplotlib.pyplot as plt
 `@pre_exercise_code`
 
 ```{python}
-# Load datasets and packages here.
+import matplotlib.pyplot as plt
 ```
 
 `@sample_code`
