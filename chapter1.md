@@ -80,9 +80,6 @@ y = [10,20,25,30]
 
 
 #Step 4 Show Plot
-
-
-
 ```
 
 `@solution`
@@ -102,13 +99,11 @@ plt.ylabel("random")
 
 #Step 4 Show Plot
 plt.show()
-
-
 ```
 
 `@sct`
 
 ```{python}
 # Update this to something more informative.
-success_msg("Some praise! Then reinforce a learning objective from the exercise.")
+success_msg("Well Done! Let's learn some more")
 ```
