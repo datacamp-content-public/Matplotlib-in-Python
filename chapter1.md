@@ -27,10 +27,11 @@ The various states which are called are preserved across function calls i.e.  it
 To call all methods we use the syntax plt.method()
 
 The basic steps to creating plots with matplotlib are:              
-1)Prepare data 
-2) Plot
-3) Customize plot 
-4)Show plot 
+
+1. Prepare data 
+2.  Plot
+3.  Customize plot 
+4. Show plot 
 
 _Plotting_
 The .plot method of pyplot to plots the respective data points. 
@@ -45,8 +46,11 @@ This is done once all the specifications of the plot have been run
 
 
 `@instructions`
-The following data
-1)
+X and Y co-ordinates have already been prepared for you as well as matplotlib imported
+
+1. Plot graph of 'x' and 'y'  using the .plot() method
+2.  Label the y-axis "random"  by using .ylabel() method
+3. Show the plot using the .show method
 
 `@hint`
 - Here is the hint for this setup problem. 
@@ -72,16 +76,34 @@ y = [10,20,25,30]
 #Step 2 Plot Graph
 
 
+#Step 3 Label y axis 
+
+
+#Step 4 Show Plot
+
+
 
 ```
 
 `@solution`
 
 ```{python}
-# Answer goes here
-# Make sure to match the comments with your sample code
-# to help students see the differences from solution
-# to given.
+import matplotlib.pyplot as plt
+
+#Step 1 Prepare Data
+x = [1,2,3,4]
+y = [10,20,25,30]
+
+#Step 2 Plot Graph
+plt.plot(x,y)
+
+#Step 3 Label y axis 
+plt.ylabel("random")
+
+#Step 4 Show Plot
+plt.show()
+
+
 ```
 
 `@sct`
