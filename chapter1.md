@@ -1,24 +1,30 @@
 ---
-title: Test
-description: Test
-
+  title: "Test"
+  description: "Test"
 ---
 
 ## An exercise title written in sentence case
 
 ```yaml
-type: NormalExercise
+type: NormalExercise 
 lang: python
-xp: 100
+xp: 100 
 skills: 2
-key: c67c169ecc
+key: c67c169ecc   
 ```
 
-This is the assignment text. It should help provide students with the background information needed.
-The instructions that follow should be in bullet point form with clear guidance for what is expected.
+
+One of the key skills within Data Science is being able to visualize data in order to better understand it. One of the main packages for plotting within Python is called Matplotlib.
+
+Before we use any of the methods in python, we need to import the package.
+Most coders abbreviate this package to plt and therefore it is good practice to do the same in order for other people to understand your code.
+To import Matplotlib we write the following line in python:
+import matplotlib.pyplot as plt
+
 
 `@instructions`
 - Instruction 1
+
 - Instruction 2
 - Instruction 3
 
