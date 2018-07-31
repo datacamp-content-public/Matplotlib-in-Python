@@ -24,6 +24,13 @@ import matplotlib.pyplot as plt
 matplotlib.pyplot contains command like functions which each make a change to a figure e.g. create figure, create a plot, plot some lines in plotting area, customize plot with labels and legends etc. 
 The various states which are called are preserved across function calls i.e.  it keeps track of functions called such as the plotting area, axes etc.
 
+The basic steps to creating plots with matplotlib are:              
+1)Prepare data
+2) Create plot
+3) Plot
+4) Customize plot
+5)Show plot
+
 
 `@instructions`
 - Instruction 1
