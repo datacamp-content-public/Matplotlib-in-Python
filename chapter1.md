@@ -107,3 +107,52 @@ plt.show()
 # Update this to something more informative.
 success_msg("Well Done! Let's learn some more")
 ```
+
+---
+
+## Legends, Titles, and Labels 
+
+```yaml
+type: NormalExercise 
+xp: 100 
+key: 2523ae9991   
+```
+
+
+In the previous exercise, we had a quick example of labeling the y-axis.
+In this exercise we will look at the other methods we can use to better customize our graph by adding legneds, titles and labels.
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+
+```{python}
+
+```
+
+
+`@sample_code`
+
+```{python}
+
+```
+
+
+`@solution`
+
+```{python}
+
+```
+
+
+`@sct`
+
+```{python}
+
+```
+
