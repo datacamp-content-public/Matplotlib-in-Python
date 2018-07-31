@@ -24,19 +24,29 @@ import matplotlib.pyplot as plt
 matplotlib.pyplot contains command like functions which each make a change to a figure e.g. create figure, create a plot, plot some lines in plotting area, customize plot with labels and legends etc. 
 The various states which are called are preserved across function calls i.e.  it keeps track of functions called such as the plotting area, axes etc.
 
+To call all methods we use the syntax plt.method()
+
 The basic steps to creating plots with matplotlib are:              
 1)Prepare data 
-2) Create plot 
-3) Plot 
-4) Customize plot 
-5)Show plot
+2) Plot
+3) Customize plot 
+4)Show plot 
+
+_Plotting_
+The .plot method of pyplot to plots the respective data points. 
+The .plot takes many parameters, but the first two here are 'x' and 'y' coordinates
+
+_Customization_
+A few examples will be looked at in future exercises
+
+_Show Plot_
+The plt.plot will "draw"  a plot in the background, but  if we want to view the plot, we use the plt.show() method.
+This is done once all the specifications of the plot have been run
 
 
 `@instructions`
-- Instruction 1
-import t
-- Instruction 2
-- Instruction 3
+The following data
+1)
 
 `@hint`
 - Here is the hint for this setup problem. 
@@ -53,15 +63,16 @@ import matplotlib.pyplot as plt
 `@sample_code`
 
 ```{python}
-# Your
-# sample
-# code
-# should
-# be
-# ideally
-# 10 lines or less,
-# with a max
-# of 16 lines.
+import matplotlib.pyplot as plt
+
+#Step 1 Prepare Data
+x = [1,2,3,4]
+y = [10,20,25,30]
+
+#Step 2 Plot Graph
+
+
+
 ```
 
 `@solution`
