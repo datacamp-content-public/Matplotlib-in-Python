@@ -125,17 +125,20 @@ In this exercise we will look at the other methods we can use to better customiz
 To add a title, we use the command .title
 
  e.g. 
+
 plt.title("This is a title")
 
 To add labels to our x and y axes, we use the .xlabel and .ylabel method respectively
 
 e.g.
+
 plt.xlabel("This is a label on the x axis")
 
 A useful way to add a legend is to add a parameter "label = " into the .plot method.
 This will automatically give a name to the legend when the .legend method is called.
 
 e.g.
+
 plt.plot(x,  y, label = "line 1")
 
 plt.plot(a,  b, label = "line 2")
