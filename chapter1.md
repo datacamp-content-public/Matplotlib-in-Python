@@ -137,7 +137,9 @@ This will automatically give a name to the legend when the .legend method is cal
 
 e.g.
 plt.plot(x,  y, label = "line 1")
+
 plt.plot(a,  b, label = "line 2")
+
 plt.legend()
 
 
