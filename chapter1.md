@@ -53,10 +53,9 @@ X and Y co-ordinates have already been prepared for you as well as matplotlib im
 3. Show the plot using the .show method
 
 `@hint`
-- Here is the hint for this setup problem. 
-- It should get students 50% of the way to the correct answer.
-- So don't provide the answer, but don't just reiterate the instructions.
-- Typically one hint per instruction is a sensible amount.
+Remember to use the syntax plt.method()
+This will ensure you are calling the methods within the pyplot class.
+Good luck
 
 `@pre_exercise_code`
 
