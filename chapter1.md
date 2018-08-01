@@ -1,6 +1,6 @@
 ---
-  title: "Test"
-  description: "Test"
+  title: "Getting The Plotting Basics"
+  description: "Here we will learn how to import matplotlib, draw some basic plots and add some customization"
 ---
 
 ## Basics of Matplotlib
