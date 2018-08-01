@@ -203,7 +203,7 @@ sales = [100, 140, 130, 90, 110, 115, 145, 160, 120, 100, 160, 180]
 costs = [40, 90, 80, 50, 60, 50, 70, 80, 90, 70, 100, 110]
 
 #Plot sales over time and costs over time
-plt.plot(months, sales, label = "sales" , color = "r")
+plt.plot(months, sales, label = "sales" )
 plt.plot(months, costs, label = "costs")
 
 #Add Legend to Plot
