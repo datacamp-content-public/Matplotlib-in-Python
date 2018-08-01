@@ -136,7 +136,15 @@ plt.legend()
 
 
 `@instructions`
+The data given is the sales and costs of a particular business over a 12 month period.
 
+1) Plot a line for both sales over the months, and costs over the months using .plot method. Remember to add a label parameter for the legend.
+2) Add a legend using the .legend method
+3) Add the following labels and titles
+      - - x-axis: "Time"
+      - - y-axis: "R'000"
+      - - Plot Title: "Sales versus Costs for 2018"
+4) Finally Show the graphs you have plotted using the .show method
 
 `@hint`
 
@@ -144,23 +152,54 @@ plt.legend()
 `@pre_exercise_code`
 
 ```{python}
-
+import matplotlib.pyplot as plt
 ```
-
 
 `@sample_code`
 
 ```{python}
+import matplotlib.pyplot as plt
+
+#The data
+months = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+sales = [100, 140, 130, 90, 110, 115, 145, 160, 120, 100, 160, 180]
+costs = [40, 90, 80, 50, 60, 50, 70, 80, 90, 70, 100, 110]
+
+#Plot sales over time and costs over time
+
+#Add Legend to Plot
+
+# Add labels for x-axis and y-axis as well as a title for the plot
+
+#Show Plot 
 
 ```
-
 
 `@solution`
 
 ```{python}
+import matplotlib.pyplot as plt
 
+#The data
+months = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+sales = [100, 140, 130, 90, 110, 115, 145, 160, 120, 100, 160, 180]
+costs = [40, 90, 80, 50, 60, 50, 70, 80, 90, 70, 100, 110]
+
+#Plot sales over time and costs over time
+plt.plot(months, sales, label = "sales" , color = "r")
+plt.plot(months, costs, label = "costs")
+
+#Add Legend to Plot
+plt.legend()
+
+# Add labels for x-axis and y-axis as well as a title for the plot
+plt.xlabel("Time")
+plt.ylabel("R'000")
+plt.title("Sales versus Costs for 2018")
+
+
+plt.show()
 ```
-
 
 `@sct`
 
