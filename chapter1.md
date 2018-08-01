@@ -197,7 +197,7 @@ plt.xlabel("Time")
 plt.ylabel("R'000")
 plt.title("Sales versus Costs for 2018")
 
-
+#Show Plot 
 plt.show()
 ```
 
