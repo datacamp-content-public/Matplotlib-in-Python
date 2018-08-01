@@ -154,9 +154,12 @@ The data given is the sales and costs of a particular business over a 12 month p
 2) Add a legend using the .legend method
 
 3) Add the following labels and titles:
-      - - x-axis: "Time"
-      - - y-axis: "R'000"
-      - - Plot Title: "Sales versus Costs for 2018"
+
+x-axis: "Time"
+
+y-axis: "R'000"
+
+Plot Title: "Sales versus Costs for 2018"
 
 4) Finally Show the graphs you have plotted using the .show method
 
