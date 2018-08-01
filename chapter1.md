@@ -158,6 +158,7 @@ The data given is the sales and costs of a particular business over a 12 month p
 
 `@hint`
 1) Did you add the parameter: label = "sales"  ?
+2) There is no insert into the plt.legend() method
 
 `@pre_exercise_code`
 
