@@ -1,6 +1,6 @@
 ---
   title: "Getting The Plotting Basics"
-  description: "Here we will learn how to import matplotlib, draw some basic plots and add some customization"
+  description: "Here we will learn how to import matplotlib, draw some basic plots and add some customization."
 ---
 
 ## Basics of Matplotlib
@@ -211,6 +211,67 @@ plt.title("Sales versus Costs for 2018")
 #Show Plot 
 plt.show()
 ```
+
+`@sct`
+
+```{python}
+
+```
+
+
+---
+
+## Scatter Plots
+
+```yaml
+type: NormalExercise 
+xp: 100 
+key: a7b48c18a3   
+```
+
+
+Another useful plotting tool is a scatter plot as this allows us to see the general distribution of our data and if there are any correlations or relationships.
+
+Their are various customization options available for scatter plots such as size of points, colour and shape of the point.
+
+
+color='k', s=25, marker="o")
+b : blue.
+g : green.
+r : red.
+c : cyan.
+m : magenta.
+y : yellow.
+k : black.
+w : white.
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+
+```{python}
+
+```
+
+
+`@sample_code`
+
+```{python}
+
+```
+
+
+`@solution`
+
+```{python}
+
+```
+
 
 `@sct`
 
