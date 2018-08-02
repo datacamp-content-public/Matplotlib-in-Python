@@ -109,7 +109,7 @@ success_msg("Well Done! Let's learn some more")
 
 ---
 
-## Legends, Titles, and Labels 
+## Legends, Titles, and Labels
 
 ```yaml
 type: NormalExercise 
@@ -182,8 +182,7 @@ costs = [40, 90, 80, 50, 60, 50, 70, 80, 90, 70, 100, 110]
 
 # Add labels for x-axis and y-axis as well as a title for the plot
 
-#Show Plot 
-
+#Show Plot
 ```
 
 `@solution`
@@ -212,13 +211,6 @@ plt.title("Sales versus Costs for 2018")
 plt.show()
 ```
 
-`@sct`
-
-```{python}
-
-```
-
-
 ---
 
 ## Scatter Plots
@@ -232,9 +224,17 @@ key: a7b48c18a3
 
 Another useful plotting tool is a scatter plot as this allows us to see the general distribution of our data and if there are any correlations or relationships.
 
-Their are various customization options available for scatter plots such as size of points, colour and shape of the point.
+Their are various customization options available for scatter plots such as size of points, colour and shape of each point. This customization takes place within the .scatter method. 
 
+Matplotlib has various abbreviations to represent each colour such as:
 
+- b : blue.
+- g : green.
+- r : red.
+- c : cyan.
+- m : magenta etc. 
+For a full range of colour options visit [https://matplotlib.org/2.0.2/api/colors_api.html
+](url)
 color='k', s=25, marker="o")
 b : blue.
 g : green.
