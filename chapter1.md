@@ -233,17 +233,25 @@ Matplotlib has various abbreviations to represent each colour such as:
 - r : red.
 - c : cyan.
 - m : magenta etc. 
+
 For a full range of colour options visit [https://matplotlib.org/2.0.2/api/colors_api.html
 ](url)
-color='k', s=25, marker="o")
-b : blue.
-g : green.
-r : red.
-c : cyan.
-m : magenta.
-y : yellow.
-k : black.
-w : white.
+
+The parameter marker changes the shape of the point such as:
+
+- "."	point
+- "o"	circle
+- "v"	triangle_down
+- "*"	star
+- "h"	hexagon1
+
+For a full range of colour options visit [https://matplotlib.org/api/markers_api.html](url)
+
+e.g.
+
+plt.scatter( x, y, s=20, color = "m", marker = ".")
+
+Where "s = " is the size parameter
 
 
 `@instructions`
@@ -255,9 +263,8 @@ w : white.
 `@pre_exercise_code`
 
 ```{python}
-
+import matplotlib.pyplot as plt
 ```
-
 
 `@sample_code`
 
