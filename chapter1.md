@@ -244,7 +244,6 @@ The parameter marker changes the shape of the point such as:
 - "v"	triangle_down
 - "*"	star
 - "h"	hexagon1
-
 For a full range of colour options visit [https://matplotlib.org/api/markers_api.html](url)
 
 e.g.
@@ -256,11 +255,16 @@ Where "s = " is the size parameter
 
 `@instructions`
 Matplotlib has been imported in the background as well as sample points called "x",  "y", "x2" and "y2".
+
 1) Create a scatter plot of co-ordinates "x" and "y"  which are of size 20, in the colour magenta and with a star as a marker.
-2)Create a scatter plot of co-ordinates "x2" and "y2"  which are of size 40  in green and with a star as a marker.
+
+2)Create a scatter plot of co-ordinates "x2" and "y2"  which are of size 40  in green and with a hexagon as a marker.
+
+3) Remember to show your graph with the .show method.
 
 `@hint`
-
+Use the following as a basic scatter plot and change the relevant parameters.
+plt.scatter( x, y, s=20, color = "m", marker = ".")
 
 `@pre_exercise_code`
 
@@ -280,15 +284,27 @@ y2 = t**1.5
 `@sample_code`
 
 ```{python}
+# Create Scatter plot of x and y
+
+
+#Create Scatter plot of x2 and y2
+
+
+#Remember to show graph
+
 
 ```
-
 
 `@solution`
 
 ```{python}
-plt.scatter(t**2,t, color = "m", s= 20, marker = "*")
-plt.scatter(t**0.3,t**1.5, marker = "1")
+# Create Scatter plot of x and y
+lt.scatter(t**2,t, color = "m", s= 20, marker = "*")
+
+#Create Scatter plot of x2 and y2
+plt.scatter(t**0.3,t**1.5, marker = "h", s = 40)
+
+#Remember to show graph
 plt.show()
 ```
 
