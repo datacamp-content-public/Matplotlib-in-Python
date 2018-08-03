@@ -255,7 +255,9 @@ Where "s = " is the size parameter
 
 
 `@instructions`
-
+Matplotlib has been imported in the background as well as sample points called "x",  "y", "x2" and "y2".
+1) Create a scatter plot of co-ordinates "x" and "y"  which are of size 20, in the colour magenta and with a star as a marker.
+2)Create a scatter plot of co-ordinates "x2" and "y2"  which are of size 40  in green and with a star as a marker.
 
 `@hint`
 
@@ -264,6 +266,15 @@ Where "s = " is the size parameter
 
 ```{python}
 import matplotlib.pyplot as plt
+
+import numpy as np
+
+# evenly sampled time at 200ms intervals
+t = np.arange(0., 5., 0.2)
+x = t**2
+y = t
+x2 = t**0.3
+y2 = t**1.5
 ```
 
 `@sample_code`
@@ -276,9 +287,10 @@ import matplotlib.pyplot as plt
 `@solution`
 
 ```{python}
-
+plt.scatter(t**2,t, color = "m", s= 20, marker = "*")
+plt.scatter(t**0.3,t**1.5, marker = "1")
+plt.show()
 ```
-
 
 `@sct`
 
