@@ -284,6 +284,8 @@ y2 = t**1.5
 `@sample_code`
 
 ```{python}
+import matplotlib.pyplot as plt
+
 # Create Scatter plot of x and y
 
 
@@ -298,6 +300,8 @@ y2 = t**1.5
 `@solution`
 
 ```{python}
+import matplotlib.pyplot as plt
+
 # Create Scatter plot of x and y
 lt.scatter(t**2,t, color = "m", s= 20, marker = "*")
 
